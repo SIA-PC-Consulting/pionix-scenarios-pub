@@ -1,0 +1,10 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.envFile": "${workspaceFolder}/.env",
+  "jupyter.jupyterServer.launchArgs": [
+    "--ServerApp.port=8888",
+    "--ServerApp.port_retries=20"
+  ],
+  "jupyter.kernels.filter": [],
+  "notebook.output.scrolling": true
+}
